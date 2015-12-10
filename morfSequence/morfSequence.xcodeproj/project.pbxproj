@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A21093B1C178EF000A1AF5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A21093A1C178EF000A1AF5A /* AppDelegate.swift */; };
+		3A21093D1C178EF000A1AF5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A21093C1C178EF000A1AF5A /* ViewController.swift */; };
+		3A2109401C178EF100A1AF5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A21093E1C178EF100A1AF5A /* Main.storyboard */; };
+		3A2109451C178EF100A1AF5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2109431C178EF100A1AF5A /* LaunchScreen.storyboard */; };
+		3A2109501C178EF100A1AF5A /* morfSequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A21094F1C178EF100A1AF5A /* morfSequenceTests.swift */; };
+		3A21095B1C178EF100A1AF5A /* morfSequenceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A21095A1C178EF100A1AF5A /* morfSequenceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A21094C1C178EF100A1AF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A21092F1C178EF000A1AF5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2109361C178EF000A1AF5A;
+			remoteInfo = morfSequence;
+		};
+		3A2109571C178EF100A1AF5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A21092F1C178EF000A1AF5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A2109361C178EF000A1AF5A;
+			remoteInfo = morfSequence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A2109371C178EF000A1AF5A /* morfSequence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = morfSequence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A21093A1C178EF000A1AF5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A21093C1C178EF000A1AF5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A21093F1C178EF100A1AF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A2109441C178EF100A1AF5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A2109461C178EF100A1AF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A21094B1C178EF100A1AF5A /* morfSequenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morfSequenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A21094F1C178EF100A1AF5A /* morfSequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morfSequenceTests.swift; sourceTree = "<group>"; };
+		3A2109511C178EF100A1AF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2109561C178EF100A1AF5A /* morfSequenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morfSequenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A21095A1C178EF100A1AF5A /* morfSequenceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morfSequenceUITests.swift; sourceTree = "<group>"; };
+		3A21095C1C178EF100A1AF5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A2109341C178EF000A1AF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2109481C178EF100A1AF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2109531C178EF100A1AF5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A21092E1C178EF000A1AF5A = {
+			isa = PBXGroup;
+			children = (
+				3A2109391C178EF000A1AF5A /* morfSequence */,
+				3A21094E1C178EF100A1AF5A /* morfSequenceTests */,
+				3A2109591C178EF100A1AF5A /* morfSequenceUITests */,
+				3A2109381C178EF000A1AF5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A2109381C178EF000A1AF5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A2109371C178EF000A1AF5A /* morfSequence.app */,
+				3A21094B1C178EF100A1AF5A /* morfSequenceTests.xctest */,
+				3A2109561C178EF100A1AF5A /* morfSequenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A2109391C178EF000A1AF5A /* morfSequence */ = {
+			isa = PBXGroup;
+			children = (
+				3A21093A1C178EF000A1AF5A /* AppDelegate.swift */,
+				3A21093C1C178EF000A1AF5A /* ViewController.swift */,
+				3A21093E1C178EF100A1AF5A /* Main.storyboard */,
+				3A2109431C178EF100A1AF5A /* LaunchScreen.storyboard */,
+				3A2109461C178EF100A1AF5A /* Info.plist */,
+			);
+			path = morfSequence;
+			sourceTree = "<group>";
+		};
+		3A21094E1C178EF100A1AF5A /* morfSequenceTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A21094F1C178EF100A1AF5A /* morfSequenceTests.swift */,
+				3A2109511C178EF100A1AF5A /* Info.plist */,
+			);
+			path = morfSequenceTests;
+			sourceTree = "<group>";
+		};
+		3A2109591C178EF100A1AF5A /* morfSequenceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A21095A1C178EF100A1AF5A /* morfSequenceUITests.swift */,
+				3A21095C1C178EF100A1AF5A /* Info.plist */,
+			);
+			path = morfSequenceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A2109361C178EF000A1AF5A /* morfSequence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A21095F1C178EF100A1AF5A /* Build configuration list for PBXNativeTarget "morfSequence" */;
+			buildPhases = (
+				3A2109331C178EF000A1AF5A /* Sources */,
+				3A2109341C178EF000A1AF5A /* Frameworks */,
+				3A2109351C178EF000A1AF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = morfSequence;
+			productName = morfSequence;
+			productReference = 3A2109371C178EF000A1AF5A /* morfSequence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A21094A1C178EF100A1AF5A /* morfSequenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2109621C178EF100A1AF5A /* Build configuration list for PBXNativeTarget "morfSequenceTests" */;
+			buildPhases = (
+				3A2109471C178EF100A1AF5A /* Sources */,
+				3A2109481C178EF100A1AF5A /* Frameworks */,
+				3A2109491C178EF100A1AF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A21094D1C178EF100A1AF5A /* PBXTargetDependency */,
+			);
+			name = morfSequenceTests;
+			productName = morfSequenceTests;
+			productReference = 3A21094B1C178EF100A1AF5A /* morfSequenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A2109551C178EF100A1AF5A /* morfSequenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A2109651C178EF100A1AF5A /* Build configuration list for PBXNativeTarget "morfSequenceUITests" */;
+			buildPhases = (
+				3A2109521C178EF100A1AF5A /* Sources */,
+				3A2109531C178EF100A1AF5A /* Frameworks */,
+				3A2109541C178EF100A1AF5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A2109581C178EF100A1AF5A /* PBXTargetDependency */,
+			);
+			name = morfSequenceUITests;
+			productName = morfSequenceUITests;
+			productReference = 3A2109561C178EF100A1AF5A /* morfSequenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A21092F1C178EF000A1AF5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = theorize;
+				TargetAttributes = {
+					3A2109361C178EF000A1AF5A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5Z75W2QT9C;
+					};
+					3A21094A1C178EF100A1AF5A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5Z75W2QT9C;
+						TestTargetID = 3A2109361C178EF000A1AF5A;
+					};
+					3A2109551C178EF100A1AF5A = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5Z75W2QT9C;
+						TestTargetID = 3A2109361C178EF000A1AF5A;
+					};
+				};
+			};
+			buildConfigurationList = 3A2109321C178EF000A1AF5A /* Build configuration list for PBXProject "morfSequence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A21092E1C178EF000A1AF5A;
+			productRefGroup = 3A2109381C178EF000A1AF5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A2109361C178EF000A1AF5A /* morfSequence */,
+				3A21094A1C178EF100A1AF5A /* morfSequenceTests */,
+				3A2109551C178EF100A1AF5A /* morfSequenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A2109351C178EF000A1AF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2109451C178EF100A1AF5A /* LaunchScreen.storyboard in Resources */,
+				3A2109401C178EF100A1AF5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2109491C178EF100A1AF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2109541C178EF100A1AF5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A2109331C178EF000A1AF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A21093D1C178EF000A1AF5A /* ViewController.swift in Sources */,
+				3A21093B1C178EF000A1AF5A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2109471C178EF100A1AF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2109501C178EF100A1AF5A /* morfSequenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A2109521C178EF100A1AF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A21095B1C178EF100A1AF5A /* morfSequenceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A21094D1C178EF100A1AF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2109361C178EF000A1AF5A /* morfSequence */;
+			targetProxy = 3A21094C1C178EF100A1AF5A /* PBXContainerItemProxy */;
+		};
+		3A2109581C178EF100A1AF5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A2109361C178EF000A1AF5A /* morfSequence */;
+			targetProxy = 3A2109571C178EF100A1AF5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A21093E1C178EF100A1AF5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A21093F1C178EF100A1AF5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A2109431C178EF100A1AF5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A2109441C178EF100A1AF5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A21095D1C178EF100A1AF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A21095E1C178EF100A1AF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A2109601C178EF100A1AF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = morfSequence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theorize.morfSequence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A2109611C178EF100A1AF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = morfSequence/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theorize.morfSequence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A2109631C178EF100A1AF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = morfSequenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theorize.morfSequenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morfSequence.app/morfSequence";
+			};
+			name = Debug;
+		};
+		3A2109641C178EF100A1AF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = morfSequenceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theorize.morfSequenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morfSequence.app/morfSequence";
+			};
+			name = Release;
+		};
+		3A2109661C178EF100A1AF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = morfSequenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theorize.morfSequenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = morfSequence;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A2109671C178EF100A1AF5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = morfSequenceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.theorize.morfSequenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = morfSequence;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A2109321C178EF000A1AF5A /* Build configuration list for PBXProject "morfSequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A21095D1C178EF100A1AF5A /* Debug */,
+				3A21095E1C178EF100A1AF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A21095F1C178EF100A1AF5A /* Build configuration list for PBXNativeTarget "morfSequence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2109601C178EF100A1AF5A /* Debug */,
+				3A2109611C178EF100A1AF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2109621C178EF100A1AF5A /* Build configuration list for PBXNativeTarget "morfSequenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2109631C178EF100A1AF5A /* Debug */,
+				3A2109641C178EF100A1AF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A2109651C178EF100A1AF5A /* Build configuration list for PBXNativeTarget "morfSequenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A2109661C178EF100A1AF5A /* Debug */,
+				3A2109671C178EF100A1AF5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A21092F1C178EF000A1AF5A /* Project object */;
+}
