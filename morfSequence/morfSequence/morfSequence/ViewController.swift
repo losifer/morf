@@ -14,8 +14,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var descView: UIView!
     @IBOutlet weak var mainScrollView: UIScrollView!
-    @IBOutlet weak var scrollView2: UIScrollView!
-    @IBOutlet weak var sequenceImage2: UIImageView!
     
     // var counter = 1
     
@@ -170,7 +168,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         if currentOffset < 0 {
             let descFade = convertValue(currentOffset, r1Min: 0, r1Max: -10, r2Min: 1, r2Max: 0)
-            let descY = convertValue(currentOffset, r1Min: 0, r1Max: -10, r2Min: 470, r2Max: 460)
+            let descY = convertValue(currentOffset, r1Min: 0, r1Max: -10, r2Min: 470, r2Max: 480)
             descView.alpha = descFade
             descView.frame.origin.y = descY
         }
