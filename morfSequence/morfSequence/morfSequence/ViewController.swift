@@ -15,7 +15,9 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var descView: UIView!
     @IBOutlet weak var mainScrollView: UIScrollView!
     
-    // var counter = 1
+    var images = ["frame2.jpg", "frame3.jpg", "frame4.jpg", "frame5.jpg", "frame6.jpg", "frame7.jpg", "frame8.jpg", "frame9.jpg", "frame10.jpg", "frame11.jpg", "frame12.jpg", "frame13.jpg", "frame14.jpg", "frame15.jpg", "frame16.jpg", "frame17.jpg"]
+    
+    var increment: CGFloat!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,127 +36,143 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         
         print("Current Offset \(currentOffset) Final Offset \(finalOffset)")
         
-        if currentOffset < -100 && currentOffset > -105 {
-            
-            sequenceImage.image = UIImage(named: "frame21.jpg")
-            
-        }
+        increment = 5
         
-        if currentOffset < -95 && currentOffset > -100 {
-            
-            sequenceImage.image = UIImage(named: "frame20.jpg")
-            
-        }
+        let arrayIndex = -Int(currentOffset / increment)
         
-        if currentOffset < -90 && currentOffset > -95 {
-            
-            sequenceImage.image = UIImage(named: "frame19.jpg")
-            
-        }
+        if images.count > arrayIndex && arrayIndex >= 0 {
         
-        if currentOffset < -85 && currentOffset > -90 {
-            
-            sequenceImage.image = UIImage(named: "frame18.jpg")
-            
-        }
+        sequenceImage.image = UIImage(named: "\(images[arrayIndex])")
         
-        if currentOffset < -80 && currentOffset > -85 {
-            
-            sequenceImage.image = UIImage(named: "frame17.jpg")
-            
-        }
-        
-        if currentOffset < -75 && currentOffset > -80 {
-            
-            sequenceImage.image = UIImage(named: "frame16.jpg")
-            
-        }
-        
-        if currentOffset < -70 && currentOffset > -75 {
-            
-            sequenceImage.image = UIImage(named: "frame15.jpg")
-            
-        }
-        
-        if currentOffset < -65 && currentOffset > -70 {
-            
-            sequenceImage.image = UIImage(named: "frame14.jpg")
-            
-        }
-        
-        if currentOffset < -60 && currentOffset > -65 {
-            
-            sequenceImage.image = UIImage(named: "frame14.jpg")
-            
-        }
-        
-        if currentOffset < -55 && currentOffset > -60 {
-            
-            sequenceImage.image = UIImage(named: "frame12.jpg")
-            
-        }
-        
-        if currentOffset < -50 && currentOffset > -55 {
-            
-            sequenceImage.image = UIImage(named: "frame11.jpg")
-            
-        }
-        
-        if currentOffset < -45 && currentOffset > -50 {
-            
-            sequenceImage.image = UIImage(named: "frame10.jpg")
-            
-        }
-        
-        if currentOffset < -40 && currentOffset > -45 {
-            
-            sequenceImage.image = UIImage(named: "frame9.jpg")
-            
-        }
-        
-        if currentOffset < -35 && currentOffset > -40 {
-            
-            sequenceImage.image = UIImage(named: "frame8.jpg")
-            
-        }
-        
-        if currentOffset < -30 && currentOffset > -35 {
-            
-            sequenceImage.image = UIImage(named: "frame7.jpg")
-            
-        }
-        
-        if currentOffset < -25 && currentOffset > -30 {
-            
-            sequenceImage.image = UIImage(named: "frame6.jpg")
-            
-        }
-        
-        if currentOffset < -20 && currentOffset > -25 {
-            
-            sequenceImage.image = UIImage(named: "frame5.jpg")
-            
+        } else {
+            print("done")
         }
         
         
-        if currentOffset < -15 && currentOffset > -20 {
-            
-            sequenceImage.image = UIImage(named: "frame4.jpg")
-            
-        }
         
-        if currentOffset < -10 && currentOffset > -15 {
-            
-            sequenceImage.image = UIImage(named: "frame3.jpg")
-            
-        }
+        // sequenceImage.image = UIImage(named: "\(images - (Int(currentOffset))")
         
-        if currentOffset < -5 && currentOffset > -10 {
-            
-            sequenceImage.image = UIImage(named: "frame2.jpg")
-            
-        }
-
+//        if currentOffset < -100 && currentOffset > -105 {
+//
+//            sequenceImage.image = UIImage(named: "frame21.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -95 && currentOffset > -100 {
+//            
+//            sequenceImage.image = UIImage(named: "frame20.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -90 && currentOffset > -95 {
+//            
+//            sequenceImage.image = UIImage(named: "frame19.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -85 && currentOffset > -90 {
+//            
+//            sequenceImage.image = UIImage(named: "frame18.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -80 && currentOffset > -85 {
+//            
+//            sequenceImage.image = UIImage(named: "frame17.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -75 && currentOffset > -80 {
+//            
+//            sequenceImage.image = UIImage(named: "frame16.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -70 && currentOffset > -75 {
+//            
+//            sequenceImage.image = UIImage(named: "frame15.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -65 && currentOffset > -70 {
+//            
+//            sequenceImage.image = UIImage(named: "frame14.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -60 && currentOffset > -65 {
+//            
+//            sequenceImage.image = UIImage(named: "frame14.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -55 && currentOffset > -60 {
+//            
+//            sequenceImage.image = UIImage(named: "frame12.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -50 && currentOffset > -55 {
+//            
+//            sequenceImage.image = UIImage(named: "frame11.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -45 && currentOffset > -50 {
+//            
+//            sequenceImage.image = UIImage(named: "frame10.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -40 && currentOffset > -45 {
+//            
+//            sequenceImage.image = UIImage(named: "frame9.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -35 && currentOffset > -40 {
+//            
+//            sequenceImage.image = UIImage(named: "frame8.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -30 && currentOffset > -35 {
+//            
+//            sequenceImage.image = UIImage(named: "frame7.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -25 && currentOffset > -30 {
+//            
+//            sequenceImage.image = UIImage(named: "frame6.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -20 && currentOffset > -25 {
+//            
+//            sequenceImage.image = UIImage(named: "frame5.jpg")
+//            
+//        }
+//        
+//        
+//        if currentOffset < -15 && currentOffset > -20 {
+//            
+//            sequenceImage.image = UIImage(named: "frame4.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -10 && currentOffset > -15 {
+//            
+//            sequenceImage.image = UIImage(named: "frame3.jpg")
+//            
+//        }
+//        
+//        if currentOffset < -5 && currentOffset > -10 {
+//            
+//            sequenceImage.image = UIImage(named: "frame2.jpg")
+//            
+//        }
+//
         
         // I AM ZERO
         
